@@ -51,6 +51,7 @@ export default {
             menuList: [
                 {link:'/', name:'Home'},
                 {link:'/about', name:'About'},
+                {link:'/lifecycle', name:'LifeCycle'},
             ]
         }
     }
