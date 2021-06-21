@@ -52,6 +52,7 @@ export default {
                 {link:'/', name:'Home'},
                 {link:'/about', name:'About'},
                 {link:'/lifecycle', name:'LifeCycle'},
+                {link:'/axios/get', name:'Axios Get'},
             ]
         }
     }

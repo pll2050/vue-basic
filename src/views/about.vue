@@ -13,16 +13,7 @@ export default {
     data: function () {
         return {
             items: [{ idx: 1 }, { idx: 2 }, { idx: 3 }, { idx: 4 }],
-            getList: [],
         };
-    },
-    create: function () {
-        const baseURI = "https://jsonplaceholder.typicode.com";
-        this.$http.get(`${baseURI}/posts`).then((result) => {
-            console.log(result.data);
-            this.getList = result.data;
-        });
-        console.log(this.getList);
     },
 };
 </script>
