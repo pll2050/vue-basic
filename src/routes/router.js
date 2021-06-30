@@ -5,7 +5,9 @@ import About from '../views/about';
 import LifeCycle from '../views/lifecycle';
 import GetAxios from '../views/axios/get.vue';
 import vIf from '../views/v-if.vue';
+import vFor from '../views/v-for.vue';
 import vModel from '../views/v-model.vue';
+import Components from '../views/components.vue';
 
 Vue.use(VueRouter);
 
@@ -17,6 +19,8 @@ export default new VueRouter({
         { path: "/lifecycle", component: LifeCycle },
         { path: "/axios/get", component: GetAxios },
         { path: "/vif", component: vIf },
+        { path: "/vfor", component: vFor },
+        { path: "/components", component: Components },
         { path: "/vmodel", component: vModel },
     ]
 });

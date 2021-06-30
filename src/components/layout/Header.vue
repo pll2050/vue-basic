@@ -53,7 +53,9 @@ export default {
                 {link:'/about', name:'About'},
                 {link:'/lifecycle', name:'LifeCycle'},
                 {link:'/vif', name:'V-If'},
+                {link:'/vfor', name:'V-For'},
                 {link:'/vmodel', name:'V-Model'},
+                {link:'/components', name:'Components'},
                 {link:'/axios/get', name:'Axios Get'},
             ]
         }
