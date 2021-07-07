@@ -57,6 +57,7 @@ export default {
                 {link:'/vmodel', name:'V-Model'},
                 {link:'/components', name:'Components'},
                 {link:'/axios/get', name:'Axios Get'},
+                {link:'/props/ptoc', name:'Props PtoC'},
             ]
         }
     }
